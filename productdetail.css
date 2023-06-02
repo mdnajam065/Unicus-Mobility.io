@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* ...Existing CSS code... */
+
+/* Product Details */
+.product-details {
+    padding: 30px;
+    background-color: #fff;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .product-info {
+    margin-bottom: 20px;
+  }
+  
+  .product-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    margin-bottom: 10px;
+  }
+  
+  .customer-reviews {
+    margin-bottom: 20px;
+  }
+  
+  .customer-reviews h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .customer-reviews p {
+    margin-bottom: 10px;
+  }
+  
+  .customer-reviews .review {
+    margin-bottom: 10px;
+  }
+  
+  .customer-reviews .review .reviewer {
+    font-weight: bold;
+  }
+  
+  .customer-reviews .review .rating {
+    color: #007bff;
+    font-weight: bold;
+  }
+  

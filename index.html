@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unicus Mobility</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="icon" type="image/x-icon" href="/icon.png">
+</head>
+
+<body>
+  <!-- Navigation menu -->
+  <nav class="navbar">
+    <ul>
+      <li><img height="70px" class="logo" src="/logo-removebg-preview.png" alt=""></li>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- slider image -->
+  <div class="slideshow-container">
+    <img class="mySlides" src="/joy-e-bike-electric-scooter-feat.webp" alt="Image 1">
+    <img class="mySlides" src="/rv400-white-zig_1.jpg" alt="Image 2">
+    <img class="mySlides" src="/SCOOTER.jpg" alt="Image 3">
+    <img class="mySlides" src="/top-5-electic-bikes.webp" alt="Image 3">
+  </div>
+  
+  <script>
+    // JavaScript for the auto slideshow
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      
+      slideIndex++;
+      
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3000);
+    }
+  </script>
+
+<body>
+  <!-- card bike -->
+<div class="card">
+  <div class="card-image">
+    <img src="/bike1.avif" alt="Image">
+  </div>
+  <div class="card-content">
+    <h2>Revolutionizing Transportation with Electric Vehicles</h2>
+    <p>
+      Unicus Mobility is a startup that is determined to make the world a better
+       place by introducing eco-friendly transportation solutions. Our aim is to 
+       revolutionize the transportation industry with state-of-the-art electric 
+       vehicles that are not only efficient but are also sustainable. We are 
+       committed to providing cutting-edge transportation solutions that make 
+       commuting hassle-free and enjoyable. Our electric bikes are designed to 
+       cater to the needs of students, urban professionals, and delivery fleets,
+        making commuting effortless and eco-friendly.</p>
+  </div>
+</div>
+
+<div class="card2">
+  <div class="card-content2">
+    <h2>Our Electric Bikes</h2>
+    <p>
+      Our e-bikes are designed to make your daily commute a breeze,
+       with their efficient and eco-friendly features. Say goodbye 
+       to traffic jams and parking woes, and hello to effortless commuting with Unicus Mobility.</p>
+  </div>
+  <div class="card-image2">
+    <img src="/bicycle.jpg" alt="Image">
+  </div>
+</div>
+<div class="card">
+  <div class="card-image">
+    <img src="/bike2.webp" alt="Image">
+  </div>
+  <div class="card-content">
+    <h2>Revolutionizing Transportation</h2>
+    <p>
+      At Unicus Mobility, we are committed to revolutionizing the world of transportation 
+      with our cutting-edge electric vehicles. Our e-bikes are not only smart and stylish, 
+      but also environmentally sustainable. Join us in our mission to make the world a better place, one ride at a time.</p>
+  </div>
+</div>
+
+  <section>
+    <h2 id="h22">About Unicus Mobility</h2>
+    <p id="p2">Unicus Mobility is a startup venture focused on providing efficient and eco-friendly mobility solutions through electric bikes. Our mission is to revolutionize transportation with cutting-edge technology and sustainable practices.</p>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="logo">
+        <div>
+          <p class="ftext1">&copy; 2023 <b> Unicus Mobility.</b>  All rights reserved.</p>
+        </div>
+        <div> 
+            <img src="/logo-removebg-preview.png" alt="Company Logo">
+        </div>
+      </div>
+      <div class="social-icons">
+        <p class="ftext2">Join Us</p>
+        <a href="#" class="social-icon"><img class="fimg" src="/twitter (1).png" alt=""></a>
+        <a href="#" class="social-icon"><img class="fimg" src="/linkedin.png" alt=""></a>
+        <a href="#" class="social-icon"><img class="fimg" src="/instagram (1).png" alt=""></a>
+        <a href="#" class="social-icon"><img class="fimg" src="/facebook.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

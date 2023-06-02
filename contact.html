@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicus Mobility</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/x-icon" href="/icon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* margin: 0;
+            padding: 0px; */
+            background-color: #d0cccc;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+            font-family: sans-serif;
+            font-size: 50px;
+        }
+
+        form {
+            background-color: #d0cccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button[type="submit"] {
+            background-color: #4b558a;
+            color: #fff;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 15px;
+            
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        p{
+            margin-left: 30%;
+            margin-right: 30%;
+            text-align: center;
+            /* font-size: 20px; */
+        }
+        #eml{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            size: 30px;
+            height: 30px;
+            width: 30px;
+        }
+        #gimg{
+            height: 20px;
+            align-items: center;
+            margin-left: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation menu -->
+    <nav class="navbar">
+        <ul>
+            <li><img height="70px" class="logo" src="/logo-removebg-preview.png" alt=""></li>
+            <li><a href="e-bike.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Us</h1>
+    <div>
+        <p>Feel free to contact us with any questions or concerns. You can use the 
+            form on our website or <a href="mailto: hello@unicusmobility.works"> <b> Email</b></a> us directly.
+             We appreciate your interest and look forward to hearing from you.</p>
+    </div>
+
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Write your Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Write your Email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your text" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <footer>
+        <div class="footer-content">
+          <div class="logo">
+            <div>
+              <p class="ftext1">&copy; 2023 <b> Unicus Mobility.</b>  All rights reserved.</p>
+            </div>
+            <div> 
+                <img src="/logo-removebg-preview.png" alt="Company Logo">
+            </div>
+          </div>
+          <div class="social-icons">
+            <p class="ftext2">Join Us</p>
+            <a href="#" class="social-icon"><img class="fimg" src="/twitter (1).png" alt=""></a>
+            <a href="#" class="social-icon"><img class="fimg" src="/linkedin.png" alt=""></a>
+            <a href="#" class="social-icon"><img class="fimg" src="/instagram (1).png" alt=""></a>
+            <a href="#" class="social-icon"><img class="fimg" src="/facebook.png" alt=""></a>
+          </div>
+        </div>
+      </footer>
+</body>
+
+</html>
